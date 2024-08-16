@@ -1,1 +1,1 @@
-# Bank account application with Redux
+# Bank account application with React and Redux
