@@ -11,6 +11,7 @@ function BalanceDisplay({ balance }) {
   return <div className="balance">{formatCurrency(balance)}</div>;
 }
 
+// Old way of connecting Redux with components
 function mapStateToProps(state) {
   return { balance: state.account.balance };
 }
